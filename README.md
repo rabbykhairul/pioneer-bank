@@ -1,0 +1,1 @@
+A site demonstrating simple money transactions.
