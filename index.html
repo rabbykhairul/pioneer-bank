@@ -19,11 +19,37 @@
         <div id="login-btn" class="btn btn-success">Enter</div>
     </div>
 
+    <div id="transaction-area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="status-box deposit">
+                    <h5>Deposit</h5>
+                    <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="status-box withdraw">
+                    <h5>Withdraw</h5>
+                    <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="status-box balance">
+                    <h5>Balance</h5>
+                    <h2>$1240</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         const loginBtn = document.getElementById("login-btn");
         loginBtn.addEventListener("click", function(){
             const loginArea = document.getElementById("login-area");
+            const transactionArea = document.getElementById("transaction-area");
+
             loginArea.style.display = "none";
+            transactionArea.style.display = "block";
         })
     </script>
 </body>
