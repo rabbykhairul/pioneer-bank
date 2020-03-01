@@ -29,3 +29,8 @@ body{
     border-radius: 10px;
     color: white;
 }
+
+#transaction-area h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
