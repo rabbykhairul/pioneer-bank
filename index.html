@@ -90,6 +90,9 @@
         function getInputAmount(idName){
             const strAmount = document.getElementById(idName).value;
             document.getElementById(idName).value = "";
+            if(strAmount.length < 1){
+                return 0;
+            }
             return parseFloat(strAmount);
         }
 
