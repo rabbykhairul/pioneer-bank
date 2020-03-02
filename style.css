@@ -2,10 +2,11 @@ body{
     padding: 100px;
 }
 
-#login-area{
+.form-box{
     border-radius: 15px;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px lightgray;
     padding: 50px;
+    margin-top: 50px;
 }
 
 #transaction-area{
